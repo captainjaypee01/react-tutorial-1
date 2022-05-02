@@ -17,3 +17,5 @@ Different usage of rendering the components using functional or arrow function c
 - follow semantics for better practice
 
 ## Nested Components, React Tools
+
+Learn on how to use different child components inside the Parent Component/

@@ -15,3 +15,5 @@ Different usage of rendering the components using functional or arrow function c
 - close every element
 - formatting
 - follow semantics for better practice
+
+## Nested Components, React Tools

@@ -16,20 +16,24 @@ import ReactDOM from "react-dom/client";
 // - close every element
 // - formatting
 // - Follow semantics for better practice
+
+// Nested Compnents, React Tools
+
 function Greeting() {
   return (
     <>
       <div className="test">
-        <h4>I'm Jaypee!</h4>
-        <ul>
-          <li>
-            <a href="#">Click Me!</a>
-          </li>
-        </ul>
+        <Person />
+        <Message />
       </div>
     </>
   );
 }
+
+const Person = () => <h2>John Paul</h2>;
+const Message = () => {
+  return <p>This is sample paragraph</p>;
+};
 
 // const Greeting = () => {
 //   return React.createElement(
